@@ -19,38 +19,23 @@ git clone https://github.com/your-username/python-digit-recognition.git
 2. Install the required dependencies:
 
 ```shell
-pip install -r requirements.txt
+pip install opencv-python numpy tensorflow matplotlib
 ```
 
 ## Usage
 
 1. Train the model:
 
-```shell
-python train.py
-```
-
-This script will train the model on the provided dataset.
+Uncomment the part indicated by comment in the main.py file
 
 2. Test the model:
 
-```shell
-python test.py
-```
-
-This script will evaluate the accuracy of the trained model on a test dataset.
+Uncomment the part indicated by comment in the main.py file
 
 3. Use the AI:
 
-```shell
-python predict.py
-```
-
-This script will prompt you to input an image file and display the predicted digit.
-
-## Contributing
-
-Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
+Bottom of the main.py file
+Create images 28x28 pixels and save them in the images folder with number in the name
 
 ## License
 
