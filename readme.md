@@ -16,7 +16,7 @@ This project is a Python-based AI that can recognize digits. It uses machine lea
 git clone https://github.com/your-username/python-digit-recognition.git
 ```
 
-1. Install the required dependencies:
+2. Install the required dependencies:
 
 ```shell
 pip install -r requirements.txt
@@ -32,7 +32,7 @@ python train.py
 
 This script will train the model on the provided dataset.
 
-1. Test the model:
+2. Test the model:
 
 ```shell
 python test.py
@@ -40,7 +40,7 @@ python test.py
 
 This script will evaluate the accuracy of the trained model on a test dataset.
 
-1. Use the AI:
+3. Use the AI:
 
 ```shell
 python predict.py
